@@ -1,0 +1,69 @@
+body
+{
+  background-color: lime;
+  text-align: center;
+}
+
+h1
+{
+  position: relative;
+  color: black;
+  background-color: cyan;
+  height: 50px;
+}
+
+#show_sketch
+{
+  float: right;
+}
+
+#show_sketch:hover
+{
+  width: 200px;
+  height: 50px;
+}
+
+#label
+{
+  font-size: 25px;
+}
+
+#confidence
+{
+  font-size: 25px;
+}
+
+p
+{
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+canvas
+{
+  border: 5px solid red;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin-top: 100px;
+  height: 15px;
+  width: 15px;
+}
+
+.copy_right_footer
+{
+  position: fixed;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  background-color: cyan;
+  line-height: 3;
+  text-align: center;
+}
+
+@keyframes example
+{
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px violet;}
+}
